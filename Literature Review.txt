@@ -1,0 +1,156 @@
+Literature Review:
+
+
+There are many prominent works in Text
+Summarization from the past few years. Earlier
+works dealt mainly with Single Document Text
+Summarization. Now that the technology has
+increased as well as computing power has increased
+which paved the path for a faster, more effective and
+more accurate way of processing documents when
+compared with the earlier methods.
+Niladri Chatterjee, Amol Mittal and Shubham
+Goyal in [5] proposed an extractive based Text
+Summarization technique that makes use of Genetic
+Algorithms. In this paper, they represented the single
+document as a Directed-Acyclic-Graph. Weight is
+given to each edge of the DAG-based on a schema
+explained in the paper. They use an Objective
+function to express the standard of the summary in
+terms such as ease of readability (readability factor),
+how closely sentences are related (cohesion factor)
+and topic relation factor. The Genetic Algorithm is
+intended to maximize the Objective function by
+selecting the prominent sentences from the whole
+text. Initially the Cohesion Factor i.e., how closely
+are the sentences related to each other is calculated.
+Then, the sentences that are similar to the input query
+should be given the highest preference called as
+Topic Relation Factor is calculated. After calculating
+the aforementioned factors, the Objective Function
+(fitness function) of the summary can be determined.
+Then a Genetic Algorithm is used to maximize the
+Objective function.
+Amol Tandel et el in [6] proposed a multidocument
+summarization technique that will allow
+the customer to condense relevant data from multiple
+documents given as a single input. This method could
+save an ample amount of time along with increased
+efficiency. They have inspired from the then existing
+approaches like Cluster-based, Topic-based and
+Lexical Chain based. LexRank prevents the score
+maximization of Sentences that are not relevant to the
+main theme of the document. Lower scores are given
+to the sentences that contain noisy data because there
+will be no similitude with the cluster. In the initial
+phase, they will extract the summary of every single
+document. Then generated metadata from those
+documents. This metadata is used to construct a
+graph that shows how the sentences are relevant to
+each other by considering each document as a node
+and the appropriate weights are given based on the
+similitude of the metadata generated earlier.
+Shivangi Modi & Rachana Oza in [11] discusses
+in detail about 3 single document techniques and 2
+multi-document techniques.
+Aditya Jain et el in [7] proposed a model which
+used Word Vector Embedding for Extractive Text
+Summarization. As per their paper, there are four
+prominent problems to deal with while extracting
+information. They are recognizing the most salient
+sentences from the document, removing the
+unnecessary information that is not relevant to the
+theme of the document, minimize the details and
+putting together the initially extracted information
+that is relevant into a condensed and organized
+report. To overcome the aforementioned challenges,
+they proposed a Word Vector Embedding approach
+to extract the prominent, then they used a Neural
+Network for Extractive Summarization by using
+Supervised Learning method. They tested on
+DUC2002 dataset and found that the results were
+more accurate when compared with the earlier
+summarizing methods. The results were satisfactory
+but can be improved if the size of the dataset is
+increased and theme diversity of the dataset and then
+implementing more effectual approaches like
+Sequence to Sequence Recurrent Neural Network for
+summarizing.
+Nithin Raphal, Hemanta Duwarah and Philemon
+Daniel in [9] provided a review on the prominent
+research performed on the abstractive text
+summarization. As there are two methods of
+summarization: Extractive and Abstractive methods.
+The Extractive method as said by Aditya Jain et el
+[7] will select the prominent sentences that are in the
+document and make the summary out of it by
+maintaining the coherence between the sentences and
+sticking to the theme of the document. The
+Abstractive method, on the other hand, creates a
+summary by creating the phrases or sentences that
+may or may not be present in the document but could
+bring the complete meaning of the document. This is
+way more difficult than the extractive technique used
+earlier. It is very much similar to what a human could
+Proceedings of the Second International Conference on Inventive Research in 
+
+Computing Applications (ICIRCA-2020)
+IEEE Xplore Part Number: CFP20N67-ART; ISBN: 978-1-7281-5374-2
+978-1-7281-5374-2/20/$31.00 ©2020 IEEE 354
+Authorized licensed use limited to: Cornell University Library. Downloaded on 
+
+September 10,2020 at 06:40:02 UTC from IEEE Xplore. Restrictions apply.
+generate after going through a document. Word
+embedding method and one hot vector methods failed
+to detect the similarly occurred word. This problem
+was resolved in Mikolov et al [1] [2] model in which
+they used continuous skip-gram-model, which takes
+input word and can project the probable contextual
+words whereas, on the contrary, the continuous bagof-
+words model is exactly the converse of the CSG
+method.
+They proposed various methods by which
+extractive summarization can be done, the
+preprocessing steps that are to be done in the initial
+phases, discussed the latest research in this arena, the
+various kinds of architectures, mechanisms involved,
+supervised and reinforced learning & the advantages
+and disadvantages of various architecture.
+In [10] “Query-based Summarization using topic
+background knowledge” (2017) has been proposed.
+Basically, a query oriented approach means to
+develop the summary based on the query given as an
+input. As most of the queries don’t hold the semantic
+details or information, the query-based model is not
+effective. So Yang et al. proposed a model that will
+use the search engines to develop background
+knowledge of the main theme of the document. Later
+they used the Page rank algorithm which contains the
+document information and cross-document
+information. They applied this algorithm on the
+document to construct the summary of the document.
+They used the China search engine Baidu for the
+building of theme background knowledge. In the
+future works that may be extended to Google, Yahoo
+etc. and the results can be compared with the earlier
+results. In this way can be built a more accurate
+summary as there is a good knowledge of the
+background theme of the document.
+According to Shi Ziyan in [3], Summarization
+could not bring accurate results when the word has a
+lot of meanings. So there is a need for the particular
+domain knowledge of the main theme of the
+document as well. This brings the domain-specific
+text summarization into the limelight. But the
+problem arises when the referring is done
+inaccurately. Therefore this paper proposes a coreference
+resolution algorithm to sort out this
+problem and bring accurate results. On the similar
+lines Paul Gigioli, Nikhita Sagar, Anand Rao, Joseph
+Voyles [4] “Domain-Aware Abstractive Text
+Summarization for Medical Documents” (2018)
+extended the domain-specific summarization by
+adding deep reinforced abstractive summarization
+method which is capable of going through the
+biomedical abstracts and summarizing them into a
+single line summary.
